@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="home">
+          <h1 class="home-title">HOME</h1>
+          <div id="score-container-home">
+            <span id="scoreBoardHome">0</span>
+          </div>
+          <div class="btn-container">
+            <button id="plusOneHome" onclick="plusOneHome()">+1</button>
+            <button id="plusTwoHome" onclick="plusTwoHome()">+2</button>
+            <button id="plusThreeHome" onclick="plusThreeHome()">+3</button>
+          </div>
+        </div>
+        <button id="new-game" onclick="newGame()">New Game</button>
+        <div class="guest">
+          <h1 class="guest-title">GUEST</h1>
+          <div id="score-container-guest">
+            <span id="scoreBoardGuest">0</span>
+          </div>
+          <div class="btn-container">
+            <button id="plusOneGuest" onclick="plusOneGuest()">+1</button>
+            <button id="plusTwoGuest" onclick="plusTwoGuest()">+2</button>
+            <button id="plusThreeGuest" onclick="plusThreeGuest()">+3</button>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p class="footer">
+          Made by
+          <a href="https://github.com/deprasmahaputra">Prasetya Mahaputra</a>
+        </p>
+        <p class="footer">
+          Website made as part of the JavaScript Course provided by
+          <a href="https://scrimba.com/">Scrimba</a>
+        </p>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+  background-color: peachpuff;
+  text-align: center;
+}
+
+.container {
+  height: 48vh;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+}
+
+#scoreBoardGuest {
+  font-size: 60px;
+  background-color: azure;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+#scoreBoardHome {
+  font-size: 60px;
+  background-color: azure;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.btn-container {
+  margin-top: 20px;
+  width: 110px;
+}
+
+#new-game {
+  margin-top: 250px;
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+  background-color: orangered;
+  color: navy;
+  border-radius: 5px;
+  border: 0 solid black;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
